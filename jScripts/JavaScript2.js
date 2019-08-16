@@ -42,8 +42,8 @@
 
         swipe: function (event, direction, distance, duration, fingerCount, fingerData) {
 
-            if (direction == 'left') $(this).carousel('next');
-            if (direction == 'right') $(this).carousel('prev');
+            if (direction == 'left') $(this).carousel('prev');
+            if (direction == 'right') $(this).carousel('next');
 
         },
         allowPageScroll: "vertical"
